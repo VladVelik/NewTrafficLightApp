@@ -11,6 +11,8 @@
 		24D585F1299E5A9800405C5E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D585F0299E5A9800405C5E /* ContentView.swift */; };
 		24D585F3299E5A9A00405C5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D585F2299E5A9A00405C5E /* Assets.xcassets */; };
 		24D585F6299E5A9A00405C5E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24D585F5299E5A9A00405C5E /* Preview Assets.xcassets */; };
+		24D585FD299E5BF000405C5E /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D585FC299E5BF000405C5E /* CircleView.swift */; };
+		24D585FF299E62B300405C5E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D585FE299E62B300405C5E /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		24D585F0299E5A9800405C5E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		24D585F2299E5A9A00405C5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24D585F5299E5A9A00405C5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		24D585FC299E5BF000405C5E /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		24D585FE299E62B300405C5E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				24D585EE299E5A9800405C5E /* NewTrafficLightAppApp.swift */,
 				24D585F0299E5A9800405C5E /* ContentView.swift */,
+				24D585FC299E5BF000405C5E /* CircleView.swift */,
+				24D585FE299E62B300405C5E /* ButtonView.swift */,
 				24D585F2299E5A9A00405C5E /* Assets.xcassets */,
 				24D585F4299E5A9A00405C5E /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24D585FD299E5BF000405C5E /* CircleView.swift in Sources */,
 				24D585F1299E5A9800405C5E /* ContentView.swift in Sources */,
+				24D585FF299E62B300405C5E /* ButtonView.swift in Sources */,
 				24D585EF299E5A9800405C5E /* NewTrafficLightAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
